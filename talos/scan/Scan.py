@@ -134,8 +134,6 @@ class Scan:
                  print_params=False,
                  debug=False):
 
-        from collections import OrderedDict
-
         self.x = x
         self.y = y
         self.params = params

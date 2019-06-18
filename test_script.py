@@ -5,6 +5,7 @@ import talos as ta
 
 from test.core_tests.test_scan_object import test_scan_object
 from test.core_tests.test_reporting_object import test_reporting_object
+from test.core_tests.test_reporting_order import test_reporting_order
 from test.core_tests.test_random_methods import test_random_methods
 from test.core_tests.test_params_object import test_params_object
 from test.core_tests.test_auto_scan import test_auto_scan
@@ -42,6 +43,7 @@ if __name__ == '__main__':
 
     # reporting tests
     test_reporting_object(scan_object)
+    test_reporting_order()
     test_params_object()
     test_auto_scan()
     test_templates()
